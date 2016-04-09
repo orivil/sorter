@@ -2,7 +2,7 @@ package sorter_test
 
 import (
 	"fmt"
-	"github.com/orivil/sorter"
+	"gopkg.in/orivil/sorter.v0"
 )
 
 var data = map[string]int{
