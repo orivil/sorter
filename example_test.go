@@ -6,10 +6,10 @@ import (
 )
 
 var data = map[string]int{
-	"login": 0,
-	"logout": 1,
-	"register": 2,
-	"home": 3,
+	"home": 0,
+	"login": 1,
+	"logout": 2,
+	"register": 3,
 }
 
 func ExamplePrioritySorter() {
