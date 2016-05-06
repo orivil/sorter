@@ -1,13 +1,13 @@
-# Orivil session component
+# Orivil sorter component
 
 ## Install
 
-go get -v gopkg.in/orivil/session.v0
+go get -v gopkg.in/orivil/sorter.v0
 
 ## Test
 
 ```
-cd $GOPATH/src/gopkg.in/orivil/session.v0
+cd $GOPATH/src/gopkg.in/orivil/sorter.v0
 
 go test example_test.go
 ```
@@ -18,8 +18,8 @@ see example_test.go
 
 ## Contributors
 
-https://github.com/orivil/session/graphs/contributors
+https://github.com/orivil/sorter/graphs/contributors
 
 ## License
 
-Released under the [MIT License](https://github.com/orivil/session/blob/master/LICENSE).
+Released under the [MIT License](https://github.com/orivil/sorter/blob/master/LICENSE).
