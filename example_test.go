@@ -5,14 +5,14 @@ import (
 	"gopkg.in/orivil/sorter.v0"
 )
 
-var data = map[string]int{
-	"home": 0,
-	"login": 1,
-	"logout": 2,
-	"register": 3,
-}
 
 func ExamplePrioritySorter() {
+	var data = map[string]int{
+		"home": 0,
+		"login": 1,
+		"logout": 2,
+		"register": 3,
+	}
 	// 1. new sorter
 	sorter := sorter.NewPrioritySorter(data)
 
